@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mafiaTV"
+       name="MafiaTV"
+       version="1.5"
+       provider-name="mafiatv">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="0.0.1"/>
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+		<import addon="script.module.metahandler"  version="1.0.2"/>
+		<import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Browse the Many of the Nets Movie sources</summary>
+    <description lang="en">Browse and play a wide selection of movies from the Nets Best Movie Sources
+	[COLOR red]MafiaTV plugin is coded with Google Analytics which can be disabled in addon settings under General Tab.[/COLOR]
+	Questions or Problems?   goto www.MafiosoTV.tk
+	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
