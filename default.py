@@ -35,9 +35,9 @@ try: os.makedirs(TempPath)
 except: pass
 
 def AtoZ():
-    main.addDir('0-9','http://www.movie25.so/movies/0-9/',1,art+'/09.png')
+    main.addDir('0-9','http://www.movie25.ag/movies/0-9/',1,art+'/09.png')
     for i in string.ascii_uppercase:
-            main.addDir(i,'http://www.movie25.so/movies/'+i.lower()+'/',1,art+'/'+i.lower()+'.png')
+            main.addDir(i,'http://www.movie25.ag/movies/'+i.lower()+'/',1,art+'/'+i.lower()+'.png')
     main.GA("None","Movie25-A-Z")
 
 def MAIN():
@@ -52,17 +52,17 @@ def MAIN():
         elif index==2:
             main.addDirHome('A-Z','http://www.movie25.so/',6,art+'/az2.png')
         elif index==3:
-            main.addDirHome('New Releases','http://www.movie25.so/movies/new-releases/',1,art+'/new2.png')
+            main.addDirHome('New Releases','http://www.movie25.ag/movies/new-releases/',1,art+'/new2.png')
         elif index==4:
-            main.addDirHome('Latest Added','http://www.movie25.so/movies/latest-added/',1,art+'/latest2.png')
+            main.addDirHome('Latest Added','http://www.movie25.ag/movies/latest-added/',1,art+'/latest2.png')
         elif index==5:
-            main.addDirHome('Featured Movies','http://www.movie25.so/movies/featured-movies/',1,art+'/feat2.png')
+            main.addDirHome('Featured Movies','http://www.movie25.ag/movies/featured-movies/',1,art+'/feat2.png')
         elif index==6:
-            main.addDirHome('Most Viewed','http://www.movie25.so/movies/most-viewed/',1,art+'/view2.png')
+            main.addDirHome('Most Viewed','http://www.movie25.ag/movies/most-viewed/',1,art+'/view2.png')
         elif index==7:
-            main.addDirHome('Most Voted','http://www.movie25.so/movies/most-voted/',1,art+'/vote2.png')
+            main.addDirHome('Most Voted','http://www.movie25.ag/movies/most-voted/',1,art+'/vote2.png')
         elif index==8:
-            main.addDirHome('HD Releases','http://www.movie25.so/movies/latest-hd-movies/',1,art+'/dvd2hd.png')
+            main.addDirHome('HD Releases','http://www.movie25.ag/movies/latest-hd-movies/',1,art+'/dvd2hd.png')
         elif index==9:
             main.addDirHome('Genre','http://www.movie25.so/',2,art+'/genre2.png')
         elif index==10:
@@ -86,11 +86,11 @@ def MAIN():
         elif index==19:
             main.addDirHome('[COLOR=FF67cc33]VIP[/COLOR]laylists','http://www.movie25.so/',234,art+'/vipp.png')
         elif index==20:
-            main.addDirHome('Sports','http://www.movie25.so/',43,art+'/sportsec2.png')
+            main.addDirHome('Sports','http://www.movie25.ag/',43,art+'/sportsec2.png')
         elif index==21:
-            main.addDirHome('Adventure','http://www.movie25.so/',63,art+'/adv2.png')
+            main.addDirHome('Adventure','http://www.movie25.ag/',63,art+'/adv2.png')
         elif index==22:
-            main.addDirHome('Kids Zone','http://www.movie25.so/',76,art+'/kidzone2.png')
+            main.addDirHome('Kids Zone','http://www.movie25.ag/',76,art+'/kidzone2.png')
         elif index==23:
             main.addDirHome('Documentaries','http://www.movie25.ag/',85,art+'/docsec1.png')
         elif index==24:
